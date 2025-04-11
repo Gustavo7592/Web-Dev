@@ -77,4 +77,4 @@
 
 // Desafio 5 Faça um algoritmo que apresente 3 opções para o usuario: café da manha, almoço e jantar
 
-// codesnap, quokka, fontligature
+// extensoes adicionais: codesnap, quokka, fontligature
