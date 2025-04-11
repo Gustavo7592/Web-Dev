@@ -28,20 +28,20 @@
 
 // Desafio 4
 
-let usuario = prompt("Digite seu usuario");
-let senha = Number(prompt("Digite sua senha"));
+// let usuario = prompt("Digite seu usuario");
+// let senha = Number(prompt("Digite sua senha"));
 
-if(
-    (usuario === 'Admin' && senha === 123) ||
-    (usuario === 'Gustavo' && senha === 1234) ||
-    (usuario === 'Manager' && senha === 12345)
-) 
-{
-    alert('Login efetuado com sucesso')
-}
-else {
-    alert("Usuario ou senha incorreto")
-}
+// if(
+//     (usuario === 'Admin' && senha === 123) ||
+//     (usuario === 'Gustavo' && senha === 1234) ||
+//     (usuario === 'Manager' && senha === 12345)
+// ) 
+// {
+//     alert('Login efetuado com sucesso')
+// }
+// else {
+//     alert("Usuario ou senha incorreto")
+// }
 
 // let nome = "Gustavo"
 // let sobrenome = "Cavalcanti"
@@ -64,16 +64,16 @@ else {
 // alert(height || 100) 100
 // alert(height ?? 100) 0
 
-switch(nome){
-    case "Gustavo":
-        console.log("É voce")
-        break
-    case "Fulano":
-        console.log("Voce é o Fulano")
-        break
-    default:
-        console.log("Não te conheço")
-}
+// switch(nome){
+//     case "Gustavo":
+//         console.log("É voce")
+//         break
+//     case "Fulano":
+//         console.log("Voce é o Fulano")
+//         break
+//     default:
+//         console.log("Não te conheço")
+// }
 
 // Desafio 5 Faça um algoritmo que apresente 3 opções para o usuario: café da manha, almoço e jantar
 
