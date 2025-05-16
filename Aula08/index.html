@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dom - Aula08</title>
+</head>
+<body>
+
+    <!-- <button id="btnClicar">Clique aqui!</button>
+    <p id="paragrafo">Texto inicial</p> -->
+
+    <form id="form" style="display: flex; flex-direction: column;">
+        <label for="nome">Digite seu nome:</label>
+        <input placeholder="Nome" type="text" id="nome">
+
+        <br>
+
+        <label for="emai">Digite seu email:</label>
+        <input placeholder = "Email" type="email" id="email">
+
+        <br>
+
+        <label for="assunto">Escreva seu assunto:</label>
+        <select id="assunto">
+            <option value="option1">Reclamação</option>
+            <option value="option2">Sugestão</option>
+            <option value="option3">Critica</option>
+        </select>
+
+        <textarea placeholder = "Assunto" id="mensagem"></textarea>
+        <button id="btnEnviar" type="submit">Enviar</button>
+        <p id="mensagemErro"></p>
+        <div id="cadastroUsuarios">
+            <h1>Usuarios</h1>
+        </div>
+    </form>
+    
+</body>
+<script src="../Aula08/app.js"></script>
+</html>
