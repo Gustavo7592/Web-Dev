@@ -22,7 +22,7 @@ btnEnviar.addEventListener('click', function (event) {
     let assunto = inputAssunto.value
     let mensagem = inputMensagem.value
 
-    if (nome === "" || email === "" || assunto === "" || mensagem === ""){
+    if (nome === "" || email === "" || assunto === "" || mensagem === "") {
         mensagemErro.textContent = "Preencha os campos vazios!"
         mensagemErro.style.color = "#ff0000"
         // mensagemErro.classList.add('mensagemVermelha')     
@@ -36,6 +36,7 @@ btnEnviar.addEventListener('click', function (event) {
     cardUsuario.innerHTML = `
     <h3> Nome: ${nome} </h3>
     <p> E-mail: ${email} </p>
+    <p> Assunto: ${assunto} </p>
     `
 
     cadastro.append(cardUsuario)
