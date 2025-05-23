@@ -6,6 +6,8 @@ Passos:
 Crie um parágrafo com algum texto inicial.
 Crie um botão com o texto "Alterar Texto".
 Adicione um evento de clique ao botão que muda o texto do parágrafo para "Texto Alterado!".
+
+
 Exercício 2: Adicionar Itens a uma Lista
 Descrição: Crie uma lista não ordenada e um campo de entrada. Ao clicar em um botão, adicione o texto do campo de entrada como um novo item na lista.
 
